@@ -24,6 +24,14 @@
   <url type="vcs-browser">https://github.com/bcpierce00/unison</url>
   <launchable type="desktop-id">io.github.bcpierce00.unison.desktop</launchable>
   <releases>
+    <release version="2.54.0" date="2026-06-13">
+      <description>
+        <ul>
+          <li>Drop old wire protocol.  Unison will no longer interoperate with versions before 2.52.0 and will no longer read pre-2.52.0 archive files.</li>
+          <li>Document that LLM output is unwelcome in the Unison project (code, issues, mailinglists, etc.).</li>
+        </ul>
+      </description>
+    </release>
     <release version="2.53.8-2" date="2026-04-06">
       <description>
         <p>Switched to runtime version 25.08.</p>
